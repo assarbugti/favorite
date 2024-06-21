@@ -1,5 +1,6 @@
 import 'package:favourite_application/helper/icon_data.dart';
 import 'package:favourite_application/helper/text_style_helper.dart';
+import 'package:favourite_application/screens/notification_screen/notification_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -35,7 +36,13 @@ class SearchPage extends StatelessWidget {
             child: Row(
               children: [
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => NotificationPage(),
+                      ),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                     elevation: 0,
                     shape: RoundedRectangleBorder(

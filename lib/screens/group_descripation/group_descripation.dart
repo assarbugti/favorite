@@ -6,15 +6,7 @@ class GroupDescripation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      // appBar: AppBar(
-      //   title: Text('MounirFans'),
-      //   actions: [
-      // IconButton(
-      //   icon: Icon(Icons.more_vert),
-      //   onPressed: () {},
-      // ),
-      //   ],
-      // ),
+
       body: Column(
         children: [
           Image.network(

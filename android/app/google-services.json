@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "826217552364",
+    "firebase_url": "https://favorite-live-rkskap-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "favorite-live-rkskap",
+    "storage_bucket": "favorite-live-rkskap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826217552364:android:25d46316de02310f02c8c9",
+        "android_client_info": {
+          "package_name": "com.example.favourite_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826217552364-q6tn4c6gdrpg7beedqbioob81so08d5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5OSI3RvmOa_qyMSU8QO1vXAldB0RoHc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826217552364-q6tn4c6gdrpg7beedqbioob81so08d5l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "826217552364-0oec0f9r5bm7srk3ng615839kiisugj3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.favouritefinal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

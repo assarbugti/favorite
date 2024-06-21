@@ -1,9 +1,12 @@
 import 'package:favourite_application/helper/icon_data.dart';
+import 'package:favourite_application/screens/create_group/create_group.dart';
 import 'package:favourite_application/screens/home_screen/home_screen.dart';
 import 'package:favourite_application/screens/profile_screen/user_profile_page.dart';
 import 'package:favourite_application/screens/search_screen/search_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+
+import '../fans_statics/fans_statics.dart';
 
 class BottomBarScreen extends StatefulWidget {
   const BottomBarScreen({super.key});
@@ -15,10 +18,11 @@ class BottomBarScreen extends StatefulWidget {
 class _BottomBarScreenState extends State<BottomBarScreen> {
   int _selectedIndex = 0;
 
-  static const List<Widget> _widgetOptions = <Widget>[
+  static List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     SearchPage(),
-    UserProfilePage()
+    CreateGroupPage()
+    // RevenueStatisticsPage(),
   ];
 
   void _onItemTapped(int index) {

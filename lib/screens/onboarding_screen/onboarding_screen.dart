@@ -1,7 +1,9 @@
 import 'package:favourite_application/helper/text_style_helper.dart';
 import 'package:favourite_application/screens/verification/verification_phone.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});
